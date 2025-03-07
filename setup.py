@@ -15,7 +15,7 @@ setup(
     author='Your Name',
     author_email='your.email@example.com',
     description='A simple Python tool to calculate code complexity.',
-    url='https://github.com/yourusername/code-complexity-checker',  
+    url='https://github.com/sneha30404/code-complexity-checker',  
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
