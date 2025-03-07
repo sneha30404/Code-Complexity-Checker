@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name='code-complexity-checker',  
-    version='0.1.4',  
+    version='0.1.2',  
     packages=find_packages(),
     install_requires=[
         'radon>=5.1.0',  
