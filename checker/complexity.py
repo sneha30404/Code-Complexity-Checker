@@ -1,6 +1,5 @@
 import argparse
 from radon.visitors import ComplexityVisitor
-from checker.report import generate_report
 
 def analyze_file(file_path):
     try:
@@ -15,6 +14,8 @@ def analyze_file(file_path):
                 "complexity": block.complexity,
                 "lineno": block.lineno
             })
+        print(f" Function: {block.name}, \n Complexity: {block.complexity}, \n Line: {block.lineno}")
+
 
         return results
 
@@ -31,11 +32,8 @@ def main():
     args = parser.parse_args()
 
     file_path = args.file
-    results = analyze_file(file_path)
-    if results:
-        generate_report(results, "complexity_report.json")
-    else:
-        print("No complexity data found.")
+    analyze_file(file_path)
 
+        
 if __name__ == "__main__":
     main()

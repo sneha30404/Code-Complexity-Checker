@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: code-complexity-checker
-Version: 0.1.2
+Version: 0.1.10
 Summary: A simple Python tool to calculate code complexity.
 Home-page: https://github.com/sneha30404/code-complexity-checker
 Author: Sneha
@@ -37,7 +37,7 @@ pip install code-complexity-checker
 ## Usage
 Analyze a Python file:
 ```bash
-code-checker --file example.py
+!code-checker --file example.py
 ```
 This will output something like:
 ```bash

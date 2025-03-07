@@ -22,7 +22,7 @@ pip install code-complexity-checker
 ## Usage
 Analyze a Python file:
 ```bash
-code-checker --file example.py
+!code-checker --file example.py
 ```
 This will output something like:
 ```bash

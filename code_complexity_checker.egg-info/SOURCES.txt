@@ -4,7 +4,6 @@ pyproject.toml
 setup.py
 checker/__init__.py
 checker/complexity.py
-checker/report.py
 code_complexity_checker.egg-info/PKG-INFO
 code_complexity_checker.egg-info/SOURCES.txt
 code_complexity_checker.egg-info/dependency_links.txt
