@@ -6,12 +6,12 @@
 
 A lightweight Python tool that **analyzes the complexity** of your code using [Radon](https://radon.readthedocs.io/) . Quickly check function complexity, detect high-complexity areas, and improve your code quality! 
 
-## 🔹 Features
-✅ **Analyze Cyclomatic Complexity** of Python functions & classes  
-✅ **Generate JSON Reports** with detailed complexity insights  
-✅ **Command-Line Interface (CLI)** for quick execution  
-✅ **Lightweight & Easy to Use**  
-✅ **Supports Python 3.7+**
+## Features
+- **Analyze Cyclomatic Complexity** of Python functions & classes  
+- **Generate JSON Reports** with detailed complexity insights  
+- **Command-Line Interface (CLI)** for quick execution  
+- **Lightweight & Easy to Use**  
+- **Supports Python 3.7+**
 
 ## Installation
 Install the package using `pip`:
@@ -43,7 +43,7 @@ This will output something like:
 
 - Helps you **identify complex functions** early  
 - Makes code **easier to maintain & optimize**  
-- Great for **code reviews & refactoring** 📌  
+- Great for **code reviews & refactoring** 
 
 ## Contributing
 Contributions are welcome! Follow these steps to contribute:
@@ -70,9 +70,9 @@ Contributions are welcome! Follow these steps to contribute:
 
 ## Links
 
-- 📦 **PyPI:** [Code Complexity Checker](https://pypi.org/project/code-complexity-checker/)  
-- 💻 **GitHub:** [Source Code](https://github.com/sneha30404/code-complexity-checker/)  
-- 📖 **Radon Docs:** [Radon Library](https://radon.readthedocs.io/)  
+- **PyPI:** [Code Complexity Checker](https://pypi.org/project/code-complexity-checker/)  
+- **GitHub:** [Source Code](https://github.com/sneha30404/code-complexity-checker/)  
+- **Radon Docs:** [Radon Library](https://radon.readthedocs.io/)  
 
 ---
 

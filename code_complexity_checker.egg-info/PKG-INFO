@@ -1,13 +1,100 @@
 Metadata-Version: 2.1
 Name: code-complexity-checker
-Version: 0.1.0
+Version: 0.1.4
 Summary: A simple Python tool to calculate code complexity.
 Home-page: https://github.com/sneha30404/code-complexity-checker
-Author: Your Name
-Author-email: your.email@example.com
+Author: Sneha
+Author-email: sneha30404@gmail.com
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.7
+Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: radon>=5.1.0
+
+# Code Complexity Checker
+
+[![PyPI](https://img.shields.io/pypi/v/code-complexity-checker.svg)](https://pypi.org/project/code-complexity-checker/)
+[![Python](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+A lightweight Python tool that **analyzes the complexity** of your code using [Radon](https://radon.readthedocs.io/) . Quickly check function complexity, detect high-complexity areas, and improve your code quality! 
+
+## ðŸ”¹ Features
+âœ… **Analyze Cyclomatic Complexity** of Python functions & classes  
+âœ… **Generate JSON Reports** with detailed complexity insights  
+âœ… **Command-Line Interface (CLI)** for quick execution  
+âœ… **Lightweight & Easy to Use**  
+âœ… **Supports Python 3.7+**
+
+## Installation
+Install the package using `pip`:
+```bash
+pip install code-complexity-checker
+```
+
+## Usage
+Analyze a Python file:
+```bash
+code-checker --file example.py
+```
+This will output something like:
+```bash
+[
+    {"function": "calculate_factorial", "complexity": 3, "lineno": 5},
+    {"function": "fibonacci", "complexity": 4, "lineno": 12}
+]
+```
+
+## How It Works
+
+1. Reads the Python file
+2. Uses **Radon's `ComplexityVisitor`** to analyze function/class complexity
+3. Outputs a structured JSON report with function names & their complexity scores
+
+
+## Why Use This?
+
+- Helps you **identify complex functions** early  
+- Makes code **easier to maintain & optimize**  
+- Great for **code reviews & refactoring** ðŸ“Œ  
+
+## Contributing
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork the repository on [GitHub](https://github.com/sneha30404/code-complexity-checker).
+2. Clone your fork:
+   ```bash
+   git clone https://github.com/sneha30404/code-complexity-checker.git
+    ```
+3. Create a new branch for your feature
+    ```bash
+    git checkout -b feature-name
+    ```
+4. Make your changes and commit them:
+    ```bash
+    git commit -m "Add feature-name"
+    ```
+5. Push to your branch:
+    ```bash
+    git push origin feature-name
+    ```
+6. Submit a Pull Request.
+
+
+## Links
+
+- ðŸ“¦ **PyPI:** [Code Complexity Checker](https://pypi.org/project/code-complexity-checker/)  
+- ðŸ’» **GitHub:** [Source Code](https://github.com/sneha30404/code-complexity-checker/)  
+- ðŸ“– **Radon Docs:** [Radon Library](https://radon.readthedocs.io/)  
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
+
+---
+
+**Happy Coding!** 

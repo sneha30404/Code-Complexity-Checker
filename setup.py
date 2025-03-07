@@ -1,8 +1,15 @@
+# -*- coding: utf-8 -*-
+
 from setuptools import setup, find_packages
+import pathlib
+
+# Read README.md
+HERE = pathlib.Path(__file__).parent
+README = (HERE / "README.md").read_text()
 
 setup(
     name='code-complexity-checker',  
-    version='0.1.0',  
+    version='0.1.4',  
     packages=find_packages(),
     install_requires=[
         'radon>=5.1.0',  
@@ -12,9 +19,11 @@ setup(
             'code-checker=checker.complexity:main',  
         ],
     },
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='Sneha',
+    author_email='sneha30404@gmail.com',
     description='A simple Python tool to calculate code complexity.',
+    long_description=README,  
+    long_description_content_type='text/markdown',
     url='https://github.com/sneha30404/code-complexity-checker',  
     classifiers=[
         'Programming Language :: Python :: 3',
