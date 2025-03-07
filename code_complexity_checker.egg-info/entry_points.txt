@@ -1,0 +1,2 @@
+[console_scripts]
+code-checker = checker.complexity:main

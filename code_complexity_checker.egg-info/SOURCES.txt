@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+checker/__init__.py
+checker/complexity.py
+checker/report.py
+code_complexity_checker.egg-info/PKG-INFO
+code_complexity_checker.egg-info/SOURCES.txt
+code_complexity_checker.egg-info/dependency_links.txt
+code_complexity_checker.egg-info/entry_points.txt
+code_complexity_checker.egg-info/requires.txt
+code_complexity_checker.egg-info/top_level.txt
+tests/__init__.py
+tests/test_complexity.py

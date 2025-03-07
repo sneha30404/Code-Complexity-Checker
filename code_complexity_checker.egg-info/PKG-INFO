@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: code-complexity-checker
+Version: 0.1.0
+Summary: A simple Python tool to calculate code complexity.
+Home-page: https://github.com/sneha30404/code-complexity-checker
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: radon>=5.1.0
