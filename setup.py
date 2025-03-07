@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from setuptools import setup, find_packages
 import pathlib
 
@@ -9,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name='code-complexity-checker',  
-    version='0.1.2',  
+    version='0.2.0',  
     packages=find_packages(),
     install_requires=[
         'radon>=5.1.0',  
